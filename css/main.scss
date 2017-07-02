@@ -1,0 +1,36 @@
+@import "grid";
+@import "colors";
+@import "font";
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+.row{
+    width: 100%;
+}
+.row{
+    &:before{
+        content: " ";
+        display: table;
+    }
+    &:after{
+        @extend .row:before;
+        clear: both;
+    }
+}
+[class *= "col-"]{
+    float: left;
+    min-height: 7px;
+    padding: 12px;
+}
+ul li{
+    display: inline;
+    list-style: none;
+    & a{
+        font-family: $txt-body;
+        text-decoration: none;
+        margin: 20px;
+    }
+}
