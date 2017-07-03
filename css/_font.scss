@@ -3,3 +3,7 @@ $font-title : 'Product Sans', sans-serif;
 $font-tag   : 'Roboto Mono', monospace;
 $font-size  : 14px;
 $line-height: 20px;
+
+h1, h2, h3, h4{
+    font-family: $font-title;
+}
