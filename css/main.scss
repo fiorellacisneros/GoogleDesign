@@ -52,7 +52,19 @@ section{
         width: 100%;
     }
 }
+section{
+    & .googledesign{
+        width: 100%;
+    }
+}
 hr{
     border: 2px solid;
     color: $hr-blue;
+}
+.right{
+    float: right;
+}
+a{
+    color: $txt-enlace;
+    text-decoration: none;
 }

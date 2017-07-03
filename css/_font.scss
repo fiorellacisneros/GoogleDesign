@@ -11,9 +11,11 @@ $line-height: 20px;
     }
 }
 h1{
+    font-size: 42px;
     font-family: $font-title;
+    font-weight: 500;
 }
-h3, p{
+h3, h4, p, a{
     font-family: $font-body;
 }
 span{

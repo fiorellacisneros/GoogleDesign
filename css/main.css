@@ -167,9 +167,11 @@ span {
   color: #4A4E52; }
 
 h1 {
-  font-family: "Product Sans", sans-serif; }
+  font-size: 42px;
+  font-family: "Product Sans", sans-serif;
+  font-weight: 500; }
 
-h3, p {
+h3, h4, p, a {
   font-family: "Roboto", sans-serif; }
 
 span {
@@ -214,8 +216,18 @@ header ul li:hover {
 section .podcast {
   width: 100%; }
 
+section .googledesign {
+  width: 100%; }
+
 hr {
   border: 2px solid;
   color: #4285F4; }
+
+.right {
+  float: right; }
+
+a {
+  color: #4486F4;
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */
