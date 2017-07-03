@@ -221,7 +221,9 @@ section .googledesign {
 
 hr {
   border: 2px solid;
-  color: #4285F4; }
+  color: #4285F4;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .right {
   float: right; }
