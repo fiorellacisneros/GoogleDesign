@@ -46,8 +46,13 @@ header{
         border-bottom-width: 4px;
     }
 }
+
 section{
     & .podcast{
         width: 100%;
     }
+}
+hr{
+    border: 2px solid;
+    color: $hr-blue;
 }

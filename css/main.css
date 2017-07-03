@@ -142,8 +142,38 @@
 
   .col-lg-12 {
     width: 100%; } }
-h1, h2, h3, h4 {
+h1 {
+  font-size: 2em;
+  color: #4A4E52; }
+
+h2 {
+  font-size: 1.5em;
+  color: #4A4E52; }
+
+h3 {
+  font-size: 1.17em;
+  color: #4A4E52; }
+
+h4 {
+  font-size: 1.12em;
+  color: #4A4E52; }
+
+p {
+  font-size: 16px;
+  color: #4A4E52; }
+
+span {
+  font-size: 12px;
+  color: #4A4E52; }
+
+h1 {
   font-family: "Product Sans", sans-serif; }
+
+h3, p {
+  font-family: "Roboto", sans-serif; }
+
+span {
+  font-family: "Roboto Mono", monospace; }
 
 .container {
   margin: 0 auto;
@@ -183,5 +213,9 @@ header ul li:hover {
 
 section .podcast {
   width: 100%; }
+
+hr {
+  border: 2px solid;
+  color: #4285F4; }
 
 /*# sourceMappingURL=main.css.map */

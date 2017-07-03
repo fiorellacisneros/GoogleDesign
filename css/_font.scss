@@ -1,9 +1,22 @@
-$font-body  : 'Roboto', sans-serif;
 $font-title : 'Product Sans', sans-serif;
+$font-body  : 'Roboto', sans-serif;
 $font-tag   : 'Roboto Mono', monospace;
 $font-size  : 14px;
 $line-height: 20px;
 
-h1, h2, h3, h4{
+@each $body, $size in (h1: 2em, h2: 1.5em, h3: 1.17em , h4: 1.12em, p: 16px, span: 12px) {
+    #{$body} {
+        font-size: $size;
+        color: $txt-body;
+    }
+}
+h1{
     font-family: $font-title;
 }
+h3, p{
+    font-family: $font-body;
+}
+span{
+    font-family: $font-tag;
+}
+
