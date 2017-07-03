@@ -230,4 +230,10 @@ a {
   color: #4486F4;
   text-decoration: none; }
 
+.mini-card {
+  background-color: #F1F3F4;
+  padding: 10px; }
+  .mini-card img {
+    float: right; }
+
 /*# sourceMappingURL=main.css.map */

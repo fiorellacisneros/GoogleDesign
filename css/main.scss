@@ -68,3 +68,10 @@ a{
     color: $txt-enlace;
     text-decoration: none;
 }
+.mini-card{
+    background-color: $gray;
+    padding: 10px;
+    & img{
+        float: right;
+    }
+}
