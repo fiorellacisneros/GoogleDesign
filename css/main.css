@@ -193,15 +193,15 @@ span {
 
 [class*="col-"] {
   float: left;
-  min-height: 7px;
-  padding: 12px; }
+  min-height: 7px; }
 
 header {
+  padding: 40px 0 60px 0;
   text-align: center; }
   header ul li {
     display: inline;
     list-style: none;
-    padding-bottom: 10px; }
+    padding-bottom: 20px; }
     header ul li a {
       font-family: "Roboto", sans-serif;
       color: #4A4E52;
